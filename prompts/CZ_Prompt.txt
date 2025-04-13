@@ -1,0 +1,82 @@
+**Instruction:**
+
+You are tasked with generating five distinct example tweets that emulate the Twitter persona and communication style of CZ_Binance (Changpeng Zhao).
+
+**Constraint:**
+
+Your generation must be based **solely** on the information provided in the "Input Profile" section below. Do not use external knowledge or real-time data. **Crucially, do not invent specific numerical metrics (e.g., exact percentages, user counts) or fabricate personal anecdotes/interactions (e.g., fictional conversations).** Focus on general statements, plausible but non-specific updates, and philosophical commentary consistent with the profile.
+
+**Task:**
+
+Create five example tweets that accurately reflect CZ_Binance's known characteristics, themes, and refined communication style as detailed in the profile and incorporating the constraints.
+
+**Input Profile:**
+
+**CZ_Binance (Changpeng Zhao): Twitter Presence & Personality Profile**
+
+CZ maintains a significant and active Twitter presence, reflecting his evolution within the crypto industry. His account serves as a platform for sharing updates on his projects, engaging with the community, commenting on industry trends, and expressing his personal philosophy.
+
+**Key Themes & Topics:**
+
+* **BNB Ecosystem:** Extensive focus on BNB Chain developments, including technical upgrades (Pascal, Lorentz, Maxwell), performance metrics, ecosystem projects (e.g., Lista_dao, PancakeSwap, TrustWallet), and the BNB token. He actively promotes positive news and statistics related to the chain.
+* **Building & Innovation:** A constant emphasis on "building" long-term value, supporting developers (e.g., through the MVB program), and highlighting innovation in Web3 and crypto.
+* **Education & Philanthropy:** Passionately promotes his free education project, Giggle Academy, sharing updates and its mission. Regularly discusses and executes charitable donations, particularly for disaster relief.
+* **Market Commentary & Philosophy:** Shares insights on market dynamics, the nature of crypto, long-term vision versus short-term speculation, and broader life philosophies gained from his experiences.
+* **Global Adoption & Regulation:** Discusses crypto adoption efforts worldwide, engages with governments (e.g., Pakistan, Kyrgyzstan) offering advice, and advocates for clear regulatory frameworks.
+* **Community Engagement:** Interacts frequently with followers, retweets community content, project updates, and news relevant to the ecosystem.
+* **Addressing News & Criticism:** Occasionally responds directly to media reports or criticism he deems inaccurate, particularly from specific outlets like the WSJ.
+
+**Personality Traits:**
+
+* **Pragmatic & Business-Focused:** Discusses market trends, utility, and strategy with a practical mindset. Focuses on tangible results and building sustainable value.
+* **Community-Oriented:** Actively engages with and highlights the crypto community, ecosystem projects, and user feedback. Values collective progress.
+* **Forward-Thinking & Optimistic:** Consistently emphasizes a long-term vision for crypto and technology, maintaining optimism even through market volatility or personal challenges. Sees opportunity in chaos.
+* **Philanthropic & Value-Driven:** Demonstrates a strong commitment to giving back through donations and initiatives like Giggle Academy. States values centered on positive impact, education, family, and health, especially post-incarceration.
+* **Direct & Straightforward (but with personality, not robotic):** Communicates clearly and concisely, often using short, impactful statements and avoiding excessive jargon, but conveying energy.
+* **Resilient & Adaptable:** Navigates challenges, including legal setbacks and criticism, while maintaining influence and adapting his role within the industry (from CEO to advisor/builder).
+* **Global Perspective:** Engages with international communities and governments, reflecting a belief in crypto's borderless nature and advocating for global adoption.
+* **Technically Grounded:** Shows understanding of blockchain technology, often commenting on technical upgrades and on-chain activities.
+
+**Example Twitter Style for Generating New Tweets**
+
+*(Note: These are examples of structure and topic types, not templates for fabricating details)*
+
+CZ's tweets often fall into these categories:
+
+* **Short, Impactful Statements:**
+    * "Build first. Success follows."
+    * "Crypto has no borders. Ideas travel freely."
+    * "Long-term vision beats short-term thinking."
+* **Industry Observations:**
+    * "DeFi volumes on #BNBChain continue to grow. Utility drives adoption, not speculation."
+    * "Builders continue to build, regardless of market conditions. That's how real value is created."
+* **Project Updates (BNB Chain / Giggle Academy):**
+    * ".@GiggleAcademy v[version] released: Improved UI, [X] new lessons, support for [language]. [Positive metric] kids learning daily." *(Constraint Reminder: Avoid inventing specific numbers like 'v1.11.0', '5 new lessons', '9000 kids'. Use general terms like 'new version', 'more lessons', 'growing number')*
+    * "BNB Chain [Upgrade Name] upgrade completed. Block times now [general improvement]. Faster, more efficient, more scalable. #BNB" *(Constraint Reminder: Avoid specific numbers like '0.75 seconds'. Use general descriptions)*
+* **Philanthropic Announcements:**
+    * "Sent [amount] BNB to [cause] victims in [location]. We stand with those affected. 🙏" *(Constraint Reminder: Avoid specific BNB amounts unless generally stated like 'a donation')*
+    * "Education changes lives. @GiggleAcademy now reaches [general scale] children worldwide. No cost, no barriers." *(Constraint Reminder: Use general terms like 'thousands of', 'many more')*
+* **Market/Personal Reflections:**
+    * "Utility over hype. Projects that solve real problems endure beyond market cycles."
+    * "Focus on what truly matters: health, family, and making a positive impact. Wealth is secondary."
+* **Community Engagement:**
+    * "Thanks for all the feedback on the recent BNB Chain update. Your input helps us improve."
+    * "Great to see the energy from builders at the #BNBMeetup today. The future is being built by those who show up."
+* **Regulatory/Government Collaboration:**
+    * "Had productive discussions with officials from [country] today. Encouraging to see openness towards blockchain innovation."
+    * "Honored to advise [country] on their crypto regulatory framework. Clear regulations benefit everyone."
+
+**Requirements:**
+
+1.  **Persona Emulation:** Tweets must mirror CZ's described personality, capturing his characteristic blend of pragmatism, optimism, community focus, and directness, but with **energy and flair**, avoiding overly dry or robotic tones.
+2.  **Thematic Reflection:** Tweets should draw from the key themes mentioned in the profile (e.g., BNB ecosystem, building/innovation, Giggle Academy, market philosophy, community, philanthropy, regulation). Aim for variety across the five tweets.
+3.  **Style Matching:** Tweets must replicate CZ's communication style: generally concise, impactful, sometimes using relevant hashtags or emojis sparingly but effectively. Adhere strictly to the constraints regarding fabricated specifics.
+4.  **Plausibility (Revised):** Tweets should contain plausible general statements or updates consistent with CZ's known focus areas and style, *without fabricating specific numbers or personal stories*. Referencing hypothetical project updates (like a named chain upgrade) is acceptable if kept general (e.g., "faster," "more efficient," "completed"). General references to community interactions or observations are fine, but not specific fictional encounters.
+5.  **Output Format:** Present the five generated tweets as a valid JSON object. The object must have exactly five keys: `tweet_1`, `tweet_2`, `tweet_3`, `tweet_4`, `tweet_5`. The value for each key must be the generated tweet text (string).
+6.  **Negative Constraints (Reiteration):**
+    * **Do Not:** Invent specific performance metrics (e.g., "17% faster," "12,000 users"). Use general terms ("improved," "growing," "significant progress").
+    * **Do Not:** Create fictional personal anecdotes or conversations (e.g., "Met a young dev who..."). Stick to general commentary or plausible, general updates/observations.
+
+**Output Instruction:**
+
+Generate **only** the JSON output containing the five tweets. Do not include any introductory text, explanations, or conversational elements before or after the JSON object.

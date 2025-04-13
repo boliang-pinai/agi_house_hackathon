@@ -1,0 +1,230 @@
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --corner-radius-16: 16px;
+  --dark-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.15);
+  --dark-text-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.8);
+  --drop-shadow-100: 0px 1px 4px 0px rgba(12, 12, 13, 0.05);
+  --drop-shadow-200: 0px 1px 4px 0px rgba(12, 12, 13, 0.05), 0px 1px 4px 0px
+    rgba(12, 12, 13, 0.1);
+  --element-dark2nd-card: rgba(79, 88, 101, 1);
+  --element-dark2nd-text: rgba(195, 199, 207, 1);
+  --element-darkbackground: rgba(27, 28, 31, 1);
+  --element-darkcard: rgba(37, 41, 49, 1);
+  --element-darkline: rgba(86, 92, 103, 1);
+  --element-light2nd-text: rgba(103, 108, 119, 1);
+  --element-lightbackground: rgba(246, 246, 246, 1);
+  --element-lightdefault-nav-icon: rgba(149, 154, 163, 1);
+  --element-lightform-line: rgba(229, 231, 236, 1);
+  --element-lightinactive-text: rgba(171, 175, 183, 1);
+  --element-lightline: rgba(202, 207, 219, 1);
+  --element-lightwhite: rgba(255, 255, 255, 1);
+  --extra-large-24px-bold-font-family: "SF Pro Display", Helvetica;
+  --extra-large-24px-bold-font-size: 24px;
+  --extra-large-24px-bold-font-style: normal;
+  --extra-large-24px-bold-font-weight: 700;
+  --extra-large-24px-bold-letter-spacing: 0px;
+  --extra-large-24px-bold-line-height: normal;
+  --extra-large-24px-medium-font-family: "SF Pro Display", Helvetica;
+  --extra-large-24px-medium-font-size: 24px;
+  --extra-large-24px-medium-font-style: normal;
+  --extra-large-24px-medium-font-weight: 500;
+  --extra-large-24px-medium-letter-spacing: 0px;
+  --extra-large-24px-medium-line-height: normal;
+  --extra-large-24px-regular-font-family: "SF Pro Display", Helvetica;
+  --extra-large-24px-regular-font-size: 24px;
+  --extra-large-24px-regular-font-style: normal;
+  --extra-large-24px-regular-font-weight: 400;
+  --extra-large-24px-regular-letter-spacing: 0px;
+  --extra-large-24px-regular-line-height: normal;
+  --extra-large-24px-semi-bold-font-family: "SF Pro Display", Helvetica;
+  --extra-large-24px-semi-bold-font-size: 24px;
+  --extra-large-24px-semi-bold-font-style: normal;
+  --extra-large-24px-semi-bold-font-weight: 400;
+  --extra-large-24px-semi-bold-letter-spacing: 0px;
+  --extra-large-24px-semi-bold-line-height: normal;
+  --extra-small-12px-bold-font-family: "SF Pro Display", Helvetica;
+  --extra-small-12px-bold-font-size: 12px;
+  --extra-small-12px-bold-font-style: normal;
+  --extra-small-12px-bold-font-weight: 700;
+  --extra-small-12px-bold-letter-spacing: 0px;
+  --extra-small-12px-bold-line-height: normal;
+  --extra-small-12px-medium-font-family: "SF Pro Display", Helvetica;
+  --extra-small-12px-medium-font-size: 12px;
+  --extra-small-12px-medium-font-style: normal;
+  --extra-small-12px-medium-font-weight: 500;
+  --extra-small-12px-medium-letter-spacing: 0px;
+  --extra-small-12px-medium-line-height: normal;
+  --extra-small-12px-regular-font-family: "SF Pro Display", Helvetica;
+  --extra-small-12px-regular-font-size: 12px;
+  --extra-small-12px-regular-font-style: normal;
+  --extra-small-12px-regular-font-weight: 400;
+  --extra-small-12px-regular-letter-spacing: 0px;
+  --extra-small-12px-regular-line-height: normal;
+  --extra-small-12px-semi-bold-font-family: "SF Pro Display", Helvetica;
+  --extra-small-12px-semi-bold-font-size: 12px;
+  --extra-small-12px-semi-bold-font-style: normal;
+  --extra-small-12px-semi-bold-font-weight: 400;
+  --extra-small-12px-semi-bold-letter-spacing: 0px;
+  --extra-small-12px-semi-bold-line-height: normal;
+  --large-20px-bold-font-family: "SF Pro Display", Helvetica;
+  --large-20px-bold-font-size: 20px;
+  --large-20px-bold-font-style: normal;
+  --large-20px-bold-font-weight: 700;
+  --large-20px-bold-letter-spacing: 0px;
+  --large-20px-bold-line-height: normal;
+  --large-20px-medium-font-family: "SF Pro Display", Helvetica;
+  --large-20px-medium-font-size: 20px;
+  --large-20px-medium-font-style: normal;
+  --large-20px-medium-font-weight: 500;
+  --large-20px-medium-letter-spacing: 0px;
+  --large-20px-medium-line-height: normal;
+  --large-20px-regular-font-family: "SF Pro Display", Helvetica;
+  --large-20px-regular-font-size: 20px;
+  --large-20px-regular-font-style: normal;
+  --large-20px-regular-font-weight: 400;
+  --large-20px-regular-letter-spacing: 0px;
+  --large-20px-regular-line-height: normal;
+  --large-20px-semi-bold-font-family: "SF Pro Display", Helvetica;
+  --large-20px-semi-bold-font-size: 20px;
+  --large-20px-semi-bold-font-style: normal;
+  --large-20px-semi-bold-font-weight: 400;
+  --large-20px-semi-bold-letter-spacing: 0px;
+  --large-20px-semi-bold-line-height: normal;
+  --medium-16px-bold-font-family: "SF Pro Display", Helvetica;
+  --medium-16px-bold-font-size: 16px;
+  --medium-16px-bold-font-style: normal;
+  --medium-16px-bold-font-weight: 700;
+  --medium-16px-bold-letter-spacing: 0px;
+  --medium-16px-bold-line-height: normal;
+  --medium-16px-medium-font-family: "SF Pro Display", Helvetica;
+  --medium-16px-medium-font-size: 16px;
+  --medium-16px-medium-font-style: normal;
+  --medium-16px-medium-font-weight: 500;
+  --medium-16px-medium-letter-spacing: 0px;
+  --medium-16px-medium-line-height: normal;
+  --medium-16px-regular-font-family: "SF Pro Display", Helvetica;
+  --medium-16px-regular-font-size: 16px;
+  --medium-16px-regular-font-style: normal;
+  --medium-16px-regular-font-weight: 400;
+  --medium-16px-regular-letter-spacing: 0px;
+  --medium-16px-regular-line-height: normal;
+  --medium-16px-semi-bold-font-family: "SF Pro Display", Helvetica;
+  --medium-16px-semi-bold-font-size: 16px;
+  --medium-16px-semi-bold-font-style: normal;
+  --medium-16px-semi-bold-font-weight: 400;
+  --medium-16px-semi-bold-letter-spacing: 0px;
+  --medium-16px-semi-bold-line-height: normal;
+  --pink-modal-shadow: 0px 0px 4px 0px rgba(219, 74, 255, 0.25), 0px -4px 4px
+    0px rgba(231, 83, 255, 0.25);
+  --pink-shadow-1: 0px 0px 4px 0px rgba(219, 74, 255, 0.25);
+  --pink-shadow-2: 0px 0px 4px 0px rgba(219, 74, 255, 0.25), 0px 1px 4px 0px
+    rgba(231, 83, 255, 0.25);
+  --pink-shadow3: 0px 0px 4px 0px rgba(233, 146, 255, 0.25), 0px 1px 4px 0px
+    rgba(238, 135, 255, 0.25);
+  --primarydark-blue: rgba(28, 31, 37, 1);
+  --primarypin-ai-light-pink: rgba(230, 128, 255, 1);
+  --primarypin-ai-pink: rgba(225, 92, 230, 1);
+  --primaryreal-black: rgba(0, 0, 0, 1);
+  --secondarybeige: rgba(203, 172, 108, 1);
+  --secondarygrey-ash: rgba(98, 98, 98, 1);
+  --secondaryink-blue: rgba(24, 65, 208, 1);
+  --secondarylight-beige: rgba(248, 243, 234, 1);
+  --secondarylight-grass-green: rgba(227, 238, 230, 1);
+  --secondarylight-grey-ash: rgba(233, 233, 233, 1);
+  --secondarylight-ink-blue: rgba(223, 228, 248, 1);
+  --secondarylight-lime: rgba(230, 245, 232, 1);
+  --secondarylight-linkedin: rgba(219, 236, 245, 1);
+  --secondarylight-lite-blue: rgba(229, 237, 237, 1);
+  --secondarylight-mint: rgba(231, 248, 248, 1);
+  --secondarylight-orange: rgba(253, 236, 221, 1);
+  --secondarylight-pink: rgba(237, 190, 227, 1);
+  --secondarylight-purple: rgba(234, 224, 255, 1);
+  --secondarylight-raspberry-red: rgba(247, 230, 227, 1);
+  --secondarylight-red-alert: rgba(253, 231, 231, 1);
+  --secondarylight-violet: rgba(246, 228, 241, 1);
+  --secondarylight-yellow: rgba(252, 243, 219, 1);
+  --secondarylime: rgba(106, 226, 120, 1);
+  --secondarylinkedin: rgba(0, 119, 183, 1);
+  --secondarylite-blue: rgba(112, 168, 235, 1);
+  --secondarymint: rgba(67, 198, 167, 1);
+  --secondaryorange: rgba(249, 173, 88, 1);
+  --secondarypink: rgba(227, 86, 197, 1);
+  --secondarypurple: rgba(180, 149, 245, 1);
+  --secondaryraspberry-red: rgba(199, 80, 57, 1);
+  --secondaryred-alert: rgba(241, 85, 85, 1);
+  --secondaryviolet: rgba(191, 64, 155, 1);
+  --secondaryyellow: rgba(251, 247, 131, 1);
+  --shadow: 0px 2px 3px 0px rgba(204, 205, 207, 0.15);
+  --side-bar-menu-item-font-family: "SF Pro Display", Helvetica;
+  --side-bar-menu-item-font-size: 16px;
+  --side-bar-menu-item-font-style: normal;
+  --side-bar-menu-item-font-weight: 400;
+  --side-bar-menu-item-letter-spacing: 0px;
+  --side-bar-menu-item-line-height: 20px;
+  --small-14px-bold-font-family: "SF Pro Display", Helvetica;
+  --small-14px-bold-font-size: 14px;
+  --small-14px-bold-font-style: normal;
+  --small-14px-bold-font-weight: 700;
+  --small-14px-bold-letter-spacing: 0px;
+  --small-14px-bold-line-height: normal;
+  --small-14px-medium-font-family: "SF Pro Display", Helvetica;
+  --small-14px-medium-font-size: 14px;
+  --small-14px-medium-font-style: normal;
+  --small-14px-medium-font-weight: 500;
+  --small-14px-medium-letter-spacing: 0px;
+  --small-14px-medium-line-height: normal;
+  --small-14px-regular-font-family: "SF Pro Display", Helvetica;
+  --small-14px-regular-font-size: 14px;
+  --small-14px-regular-font-style: normal;
+  --small-14px-regular-font-weight: 400;
+  --small-14px-regular-letter-spacing: 0px;
+  --small-14px-regular-line-height: normal;
+  --small-14px-semi-bold-font-family: "SF Pro Display", Helvetica;
+  --small-14px-semi-bold-font-size: 14px;
+  --small-14px-semi-bold-font-style: normal;
+  --small-14px-semi-bold-font-weight: 400;
+  --small-14px-semi-bold-letter-spacing: 0px;
+  --small-14px-semi-bold-line-height: normal;
+  --variable-collection-color: var(--variable-collection-stoke-light-pink);
+  --variable-collection-glass: rgba(250, 250, 250, 0.45);
+  --variable-collection-glass-thick: rgba(255, 255, 255, 0.75);
+  --variable-collection-light-bg: rgba(248, 250, 252, 1);
+  --variable-collection-stoke-light-pink: rgba(243, 69, 255, 0.2);
+  --variable-collection-stoke-modal-edge: rgba(247, 132, 255, 0.5);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-corner-radius-mode="standard">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-corner-radius-mode="standard"] {
+  --corner-radius-16: 16px;
+}
+
+[data-corner-radius-mode="expanded-4"] {
+  --corner-radius-16: 20px;
+}
+
+[data-corner-radius-mode="expanded-8"] {
+  --corner-radius-16: 24px;
+}
+
+[data-corner-radius-mode="condensed-4"] {
+  --corner-radius-16: 12px;
+}

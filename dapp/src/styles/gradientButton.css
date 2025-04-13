@@ -1,0 +1,35 @@
+/* Rainbow gradient background for Twitter button when connected */
+.rainbow-gradient-bg {
+  background: linear-gradient(
+    45deg,
+    rgba(255, 183, 197, 0.9), /* Light Pink */
+    rgba(255, 204, 153, 0.9), /* Light Orange */
+    rgba(255, 255, 153, 0.9), /* Light Yellow */
+    rgba(204, 255, 204, 0.9), /* Light Green */
+    rgba(153, 204, 255, 0.9), /* Light Blue */
+    rgba(204, 153, 255, 0.9), /* Light Purple */
+    rgba(255, 153, 204, 0.9)  /* Light Pink again to create a smooth loop */
+  );
+  background-size: 400% 400%;
+  animation: gradient-animation 15s ease infinite;
+}
+
+/* Animation for the gradient to smoothly transition between colors */
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Hover effect to make the gradient more vibrant */
+.rainbow-gradient-bg:hover {
+  background-size: 300% 300%;
+  animation: gradient-animation 8s ease infinite;
+  box-shadow: 0 0 15px rgba(255, 182, 193, 0.5);
+}
