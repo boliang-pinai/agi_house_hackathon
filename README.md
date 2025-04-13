@@ -9,9 +9,9 @@
 
 | Layer | Description |
 |-------|-------------|
-| 🎨 **Design** | Prompt-first UX with personality presets and tweet previews |
-| ✍️ **Prompts** | Carefully crafted prompt sets that match voice, persona, and intent |
-| 🔌 **MCP Servers** | Provide the context, tools, and APIs that power Ghost Tweeter’s AI |
+| 🎨 **Design** | Design Images for the UI |
+| ✍️ **Prompts** | Carefully crafted prompt sets that match voice, persona |
+| 🔌 **MCP Servers** | Provide the context, tools, and APIs that power Ghost Tweeter |
 | 🌐 **Dapp** | Web interface for inputting ideas and previewing generated tweets |
 
 ---
@@ -26,7 +26,7 @@ A visual overview of Ghost Tweeter’s interface:
 
 ## 🧭 **About MCP Servers**
 
-Ghost Tweeter runs on top of [**MCP.so**](https://mcp.so) — a lightweight backend infrastructure layer that gives AI apps access to context, tools, and real-world data.
+Ghost Tweeter runs on top of MCP Server.
 
 > **"MCP Servers provide context, tools, and prompts to AI clients. They can expose data sources like files, documents, databases, and APIs."**
 
