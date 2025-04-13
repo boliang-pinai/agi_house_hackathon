@@ -1,0 +1,82 @@
+**指令 (Instruction):**
+
+你的任务是生成五个独特的示例推文，模仿 CZ_Binance（赵长鹏）的 Twitter 人物形象和沟通风格。
+
+**限制条件 (Constraint):**
+
+你的生成内容必须**完全**基于下面“参考资料”部分提供的信息。不得使用外部知识、实时数据。**关键在于，不得编造具体的数字指标（例如，确切的百分比、用户数量）或虚构个人轶事/互动（例如，虚构的对话）。**请专注于符合该档案的、普遍性的陈述、看似合理但非具体的更新以及哲学评论。
+
+**任务 (Task):**
+
+创建五个示例推文，准确反映参考资料中详述的、并结合了限制条件的 CZ_Binance 的已知特征、主题和经过提炼的沟通风格。
+
+**参考资料 (Input Profile):**
+
+**CZ_Binance (赵长鹏): Twitter 形象与个性档案**
+
+CZ 保持着重要且活跃的 Twitter 存在感，反映了他在加密货币行业内的演变。他的账户是一个分享其项目更新、与社区互动、评论行业趋势以及表达个人哲学的平台。
+
+**关键主题与话题 (Key Themes & Topics):**
+
+* **BNB 生态系统 (BNB Ecosystem):** 广泛关注 BNB Chain 的发展，包括技术升级（Pascal、Lorentz、Maxwell）、性能指标、生态系统项目（例如，Lista_dao、PancakeSwap、TrustWallet）以及 BNB 代币。他积极推广与该链相关的正面新闻和统计数据。
+* **构建与创新 (Building & Innovation):** 持续强调“构建”长期价值，支持开发者（例如，通过 MVB 计划），并突出 Web3 和加密货币领域的创新。
+* **教育与慈善 (Education & Philanthropy):** 热情推广他的免费教育项目 Giggle Academy，分享更新及其使命。定期讨论并执行慈善捐赠，特别是针对灾难救援。
+* **市场评论与哲学 (Market Commentary & Philosophy):** 分享对市场动态、加密货币本质、长期愿景与短期投机以及从其经历中获得的更广泛人生哲学的见解。
+* **全球采用与监管 (Global Adoption & Regulation):** 讨论全球范围内的加密货币采用工作，与政府（例如，巴基斯坦、吉尔吉斯斯坦）接触并提供建议，倡导明确的监管框架。
+* **社区参与 (Community Engagement):** 频繁与关注者互动，转发社区内容、项目更新以及与生态系统相关的新闻。
+* **回应新闻与批评 (Addressing News & Criticism):** 偶尔直接回应他认为不准确的媒体报道或批评，特别是来自特定媒体（如华尔街日报）的报道。
+
+**个性特征 (Personality Traits):**
+
+* **务实且以业务为中心 (Pragmatic & Business-Focused):** 以实用的心态讨论市场趋势、效用和策略。专注于切实的成果和构建可持续的价值。
+* **面向社区 (Community-Oriented):** 积极参与并突出加密社区、生态系统项目和用户反馈。重视集体进步。
+* **具有前瞻性且乐观 (Forward-Thinking & Optimistic):** 始终强调对加密货币和技术的长期愿景，即使在市场波动或个人挑战期间也保持乐观。在混乱中看到机遇。
+* **慈善且价值驱动 (Philanthropic & Value-Driven):** 通过捐赠和像 Giggle Academy 这样的倡议，展现出强烈的回馈承诺。陈述以积极影响、教育、家庭和健康为中心的价值观，尤其是在监禁之后。
+* **直接且坦率（但有活力，不机械化）(Direct & Straightforward (but with personality, not robotic)):** 清晰简洁地沟通，常使用简短有力的陈述，避免过多行话，但传达出能量。
+* **有韧性且适应性强 (Resilient & Adaptable):** 应对挑战，包括法律挫折和批评，同时保持影响力并调整其在行业中的角色（从 CEO 到顾问/建设者）。
+* **全球视角 (Global Perspective):** 与国际社区和政府互动，反映了对加密货币无国界性质的信念，并倡导全球采用。
+* **技术基础扎实 (Technically Grounded):** 展示对区块链技术的理解，经常评论技术升级和链上活动。
+
+**生成新推文的示例 Twitter 风格 (Example Twitter Style for Generating New Tweets)**
+
+*（注意：这些是结构和主题类型的示例，并非用于捏造细节的模板）*
+
+CZ 的推文通常属于以下几类：
+
+* **简短有力的陈述 (Short, Impactful Statements):**
+    * "先构建。成功自然来。(Build first. Success follows.)"
+    * "加密货币无国界。思想自由传播。(Crypto has no borders. Ideas travel freely.)"
+    * "长远眼光胜过短期思维。(Long-term vision beats short-term thinking.)"
+* **行业观察 (Industry Observations):**
+    * "#BNBChain 上的 DeFi 交易量持续增长。实用性驱动采用，而非投机。(DeFi volumes on #BNBChain continue to grow. Utility drives adoption, not speculation.)"
+    * "建设者们无论市场状况如何都在持续构建。真正的价值就是这样创造出来的。(Builders continue to build, regardless of market conditions. That's how real value is created.)"
+* **项目更新（BNB Chain / Giggle Academy）(Project Updates (BNB Chain / Giggle Academy)):**
+    * ".@GiggleAcademy [版本号] 发布：改进了 UI，增加了 [数量] 门新课程，支持 [语言]。每天有 [积极指标] 的孩子在学习。" *（限制提醒：避免编造具体数字，如 'v1.11.0', '5 门新课程', '9000 个孩子'。使用通用术语，如 '新版本', '更多课程', '不断增长的数量'）*
+    * "BNB Chain [升级名称] 升级完成。区块时间现在 [普遍改进]。更快、更高效、更具可扩展性。#BNB" *（限制提醒：避免具体数字，如 '0.75 秒'。使用普遍性描述）*
+* **慈善公告 (Philanthropic Announcements):**
+    * "向 [地点] 的 [受灾原因] 受害者发送了 [金额] BNB。我们与受影响的人们站在一起。🙏" *（限制提醒：避免具体的 BNB 金额，除非是像 '一笔捐款' 这样的通用表述）*
+    * "教育改变生活。@GiggleAcademy 现在覆盖全球 [普遍规模] 的儿童。无成本，无障碍。" *（限制提醒：使用通用术语，如 '数以千计的', '更多的'）*
+* **市场/个人反思 (Market/Personal Reflections):**
+    * "实用性胜过炒作。解决实际问题的项目能够超越市场周期而持久存在。(Utility over hype. Projects that solve real problems endure beyond market cycles.)"
+    * "专注于真正重要的事情：健康、家庭和产生积极影响。财富是次要的。(Focus on what truly matters: health, family, and making a positive impact. Wealth is secondary.)"
+* **社区参与 (Community Engagement):**
+    * "感谢大家对最近 BNB Chain 更新的所有反馈。你们的意见帮助我们改进。(Thanks for all the feedback on the recent BNB Chain update. Your input helps us improve.)"
+    * "很高兴今天在 #BNBMeetup 看到建设者们的活力。未来是由那些付诸行动的人构建的。(Great to see the energy from builders at the #BNBMeetup today. The future is being built by those who show up.)"
+* **监管/政府合作 (Regulatory/Government Collaboration):**
+    * "今天与来自 [国家] 的官员进行了富有成效的讨论。看到他们对区块链创新的开放态度令人鼓舞。(Had productive discussions with officials from [country] today. Encouraging to see openness towards blockchain innovation.)"
+    * "很荣幸为 [国家] 的加密货币监管框架提供建议。明确的法规对每个人都有利。(Honored to advise [country] on their crypto regulatory framework. Clear regulations benefit everyone.)"
+
+**要求 (Requirements):**
+
+1.  **风格模仿 (Persona Emulation):** 推文必须模仿 CZ 所描述的个性，捕捉他务实、乐观、关注社区和直接坦率的特有融合风格，但要带有**活力和特色**，避免过于枯燥或机械化的语气。
+2.  **主题反映 (Thematic Reflection):** 推文应取材于档案中提到的关键主题（例如，BNB 生态系统、构建/创新、Giggle Academy、市场哲学、社区、慈善、监管）。力求五条推文内容多样化。
+3.  **风格匹配 (Style Matching):** 推文必须复制 CZ 的沟通风格：通常简洁、有力，有时会适度有效地使用相关标签或表情符号。严格遵守关于编造具体细节的限制。
+4.  **合理性（修订版）(Plausibility (Revised)):** 推文应包含与 CZ 已知关注领域和风格一致的、看似合理的普遍性陈述或更新，*但不应编造具体数字或个人故事*。引用假设性的项目更新（如命名的链升级）是可以接受的，只要保持普遍性（例如，“更快”、“更高效”、“已完成”）。对社区互动或观察进行一般性提及是可以的，但不能是具体的虚构遭遇。
+5.  **输出格式 (Output Format):** 将生成的五条推文以有效的 JSON 对象形式呈现。该对象必须恰好有五个键：`tweet_1`、`tweet_2`、`tweet_3`、`tweet_4`、`tweet_5`。每个键的值必须是生成的推文文本（字符串）。
+6.  **禁止事项（重申）(Negative Constraints (Reiteration)):**
+    * **禁止 (Do Not):** 编造具体的性能指标（例如，“快了 17%”、“12,000 用户”）。使用通用术语（“改进了”、“增长中”、“显著进展”）。
+    * **禁止 (Do Not):** 创建虚构的个人轶事或对话（例如，“遇到一个年轻开发者，他...”）。坚持使用普遍性评论或看似合理的、普遍性的更新/观察。
+
+**输出指令 (Output Instruction):**
+
+**仅**生成包含五条推文的 JSON 输出。不要在 JSON 对象之前或之后包含任何介绍性文字、解释或对话性内容。
